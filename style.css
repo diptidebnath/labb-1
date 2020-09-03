@@ -1,0 +1,182 @@
+body{
+
+    font-size: 15px bold;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.15em;
+    background-color:;}
+
+.container{
+    width: 80%;
+    margin: auto;
+overflow: hidden;}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
+.button_1{
+
+    height: 40px;
+    background-color:#e8491d;
+    border: 10;
+    padding-left:20px ;
+    padding-right: 20px;
+    color: white;
+    border: 0;
+}
+
+
+header{ 
+    
+    background: white ;
+    color: rgb(48, 40, 40);
+padding-top: 30px;
+min-width:70px ;
+border-bottom: orange 3px solid;
+
+}
+
+header a{
+
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+
+   float: left;
+   display: inline;
+   padding: 0 20px 0 20px;
+
+}
+
+header #branding{
+    float: left;
+
+}
+
+header #branding h1{
+    margin: 0;
+    
+
+
+}
+
+header nav{
+
+    float: right;
+    margin-top: 10px;
+}
+
+
+
+header .highlight, header .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a :hover{
+
+    color:#cccccc;
+    font-weight: bold;
+}
+
+
+/* om oss starts here **/
+#nav{
+
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+
+/* showcase starts */
+
+#showcase{
+
+    min-height: 400px;
+    background-image: url(logo-design.jpg);
+    text-align: center;
+    color: rgb(14, 9, 9);
+}
+
+#showcase h1{
+margin-top: 100px;
+font-size: 55px;
+margin-bottom: 10px;
+
+}
+
+#showcase p {
+
+    font-size: 20px;
+}
+
+#newsletter{
+
+    padding: 15px;
+    color: white;
+    background-color: violet;
+    text-align: center;
+}
+
+
+#newsletter form {
+ float: right;
+ margin-top: 15px;
+
+ 
+
+
+}
+
+#newsletter h1{
+
+    float: left;
+}
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 30px;
+    width: 200px;
+    
+
+}
+
+/* boxes */
+
+#boxes{
+
+    margin-top: 20px;
+}
+
+#boxes .box{
+
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    padding-right: 20;
+    padding-right: 20;
+
+}
+
+#boxes .box img{
+    width: 100px;
+}
+
+/* footer*/
+
+footer{ 
+    text-align: center;
+padding: 20px;
+margin-top: 20px;
+color: white;
+background-color: violet;}
