@@ -1,17 +1,39 @@
-body{
+.showcase {
+    background-image: url("image/1sddv.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    padding: 150px;
+    margin: auto;
+    font-weight: bold;
 
-    font-size: 15px bold;
+}
+
+.heading-text{
+  font-weight: bold;
+  font-size: 48px;
+}
+
+body {
+
+    font: 15px bold;
     line-height: 1.5;
     padding: 0;
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 0.15em;
-    background-color:;}
+}
 
 .container{
     width: 80%;
     margin: auto;
-overflow: hidden;}
+    overflow: hidden;
+}
 
 ul {
     padding: 0px;
@@ -20,29 +42,27 @@ ul {
 
 }
 
-.button_1{
+.button_1 {
 
     height: 40px;
-    background-color:#e8491d;
+    background-color: #e8491d;
     border: 10;
-    padding-left:20px ;
+    padding-left: 20px;
     padding-right: 20px;
     color: white;
     border: 0;
 }
 
 
-header{ 
-    
-    background: white ;
-    color: rgb(48, 40, 40);
-padding-top: 30px;
-min-width:70px ;
-border-bottom: orange 3px solid;
+header {
 
+    background: white;
+    color: rgb(48, 40, 40);
+    padding-top: 30px;
+    min-width: 70px;
 }
 
-header a{
+header a {
 
     color: black;
     text-decoration: none;
@@ -50,133 +70,226 @@ header a{
     font-size: 16px;
 }
 
-header li{
-
-   float: left;
-   display: inline;
-   padding: 0 20px 0 20px;
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
 
 }
 
-header #branding{
+header #branding {
     float: left;
-
-}
-
-header #branding h1{
-    margin: 0;
+    max-width: 200px;
+    height: 60;
+    padding: 0 5px 0 5px;
+    width: auto;
     
 
-
+}
+#branding img{
+    height: 50px;
 }
 
+header #branding h1 {
+    margin: 0;
+}
+.business-name{
+    margin: 0px 0px;
+}
 header nav{
 
     float: right;
     margin-top: 10px;
 }
+ nav h2{
 
-
-
-header .highlight, header .current a{
-    color: #e8491d;
+    float: left;
+    margin-top: 10px;
+}
+header .highlight,
+header .current a {
+    color: #000000;
     font-weight: bold;
 }
 
-header a :hover{
+header a :hover {
 
-    color:#cccccc;
+    color: #cccccc;
     font-weight: bold;
 }
-
+.information{
+    text-align: center;
+   
+    
+   }
+   .information h3{
+     font-weight: bold; 
+   }
+   .one-half{
+    width: 50%;
+    display: block;
+    float: left;
+    margin-top: 20px;
+  }
+  .our-story-text{
+    padding-top: 40px;
+    color: #ffffff;
+    text-align: center;
+    }
+  .button{
+    background-color: #ffffff;
+    padding: 8px 25px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+   
+.one-fourth{
+    width: 25%;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 0 15px;
+    box-sizing: border-box;
+  
+  }
+  .one-fourth img{
+    max-width: 75px;
+    height: 75px;
+    border-radius: 30px;
+    background-color: #f8f8ff;
+  
+  }
+  
+  
+  .our-service .inner-container{
+    padding: 150px 0;
+    z-index: 2;
+    position: relative;
+    overflow: hidden;
+  }
 
 /* om oss starts here **/
-#nav{
+#nav {
 
     padding: 10px;
     background-color: blueviolet;
 }
 
-
-/* showcase starts */
-
-#showcase{
-
-    min-height: 400px;
-    background-image: url(logo-design.jpg);
-    text-align: center;
-    color: rgb(14, 9, 9);
-}
-
-#showcase h1{
-margin-top: 100px;
-font-size: 55px;
-margin-bottom: 10px;
-
-}
-
-#showcase p {
-
-    font-size: 20px;
-}
-
-#newsletter{
-
-    padding: 15px;
-    color: white;
-    background-color: violet;
-    text-align: center;
-}
-
-
-#newsletter form {
- float: right;
- margin-top: 15px;
-
- 
-
-
-}
-
-#newsletter h1{
-
-    float: left;
-}
-#newsletter input[type="email"]{
-    padding: 4px;
-    height: 30px;
-    width: 200px;
-    
-
-}
-
-/* boxes */
-
-#boxes{
-
-    margin-top: 20px;
-}
-
-#boxes .box{
-
-    float: left;
-    width: 30%;
-    text-align: center;
-    padding: 10px;
-    padding-right: 20;
-    padding-right: 20;
-
-}
-
-#boxes .box img{
-    width: 100px;
-}
-
 /* footer*/
 
-footer{ 
+footer{
+    text-align: left;
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: #326c6c;
+    overflow: hidden;
+
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.one-fourth {
+    width: 25%;
+    float: left;
+    display: block;
     text-align: center;
-padding: 20px;
-margin-top: 20px;
-color: white;
-background-color: violet;}
+    padding: 0px;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+.social-icons{
+    display: block;
+    list-style: none;
+  }
+  .social-icons li {
+    display: inline-block;
+    display: inline-block;
+background: #fff;
+border-radius: 30px;
+height: 60px;
+width: 60px;
+line-height: 50px;
+vertical-align: middle;
+  }
+  .social-icons li a {
+    margin-top: 8px;
+    display: block;
+}
+  
+  .social-icons img{
+    width: 32px;
+    height: auto;
+    margin: 5px;
+  }
+  .facebook-icons{
+      color: #00bfff;
+  }
+   /* kontakt page css*/
+  .one-half{
+    width: 50%;
+    display: block;
+    float: left;
+  
+  }
+ 
+label{
+    margin: 10px 0px 2px;
+    display: block;
+  }
+  input{
+    margin: 0px;
+    padding: 5px 10px;
+    width: 200px;
+  }
+  textarea{
+    height: 120px;
+    margin-bottom: 10px;
+    width: 300px;
+  }
+  .submit{
+    background-color: #326c6c;
+    color: #000;
+    border: 0;
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+  .submit:hover{
+    color:  #ffffff;
+  }
+  .submit:focus{
+    outline: 2px solid #222222;
+  }
+  
+  .our-service{
+    background-image: url("image/business-w80.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+   
+
+  }
+  .our-service .overflow{
+position: absolute;
+height: 100%;
+width: 100%;
+background-color: rgba(0,0,0,0.5);
+ }
+ .our-service .inner-container{
+     padding: 20px;
+     color: #fff;
+     z-index: 1;
+    position: relative;
+ }
